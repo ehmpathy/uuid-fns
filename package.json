@@ -2,7 +2,7 @@
   "name": "uuid-fns",
   "author": "ehmpathy",
   "description": "A glossary of intuitive, universally unambiguous Uuid resources and procedures.",
-  "version": "1.3.0",
+  "version": "1.0.0",
   "repository": "ehmpathy/uuid-fns",
   "homepage": "https://github.com/ehmpathy/uuid-fns",
   "keywords": [
