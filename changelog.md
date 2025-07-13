@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/ehmpathy/uuid-fns/compare/v1.0.1...v1.0.2) (2025-07-13)
+
+
+### Bug Fixes
+
+* **deps:** bump for audit fix ([34a7676](https://github.com/ehmpathy/uuid-fns/commit/34a76767b56fc4db3d7972dffdef5b820126761b))
+
 ## [1.0.1](https://github.com/ehmpathy/uuid-fns/compare/v1.0.0...v1.0.1) (2025-07-13)
 
 
