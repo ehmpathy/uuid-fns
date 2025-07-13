@@ -1,5 +1,5 @@
 import { withAssure } from 'type-fns';
-import { isUuid as isUuidRef, uuid } from 'uuidv4';
+import { validate as isUuidRef, v4 as uuid } from 'uuid';
 
 export type Uuid = string & { _glossary: 'uuid' };
 
