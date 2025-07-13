@@ -1,6 +1,6 @@
 import { given, then } from 'test-fns';
 
-import { isUuid, getUuid } from './index';
+import { isUuid, getUuid, Uuid } from './index';
 
 describe('uuid', () => {
   given('a valid uuid string', () => {
@@ -11,7 +11,7 @@ describe('uuid', () => {
     });
 
     then('isUuid.assure should return the same string typed as Uuid', () => {
-      const result = isUuid.assure(input);
+      const result: Uuid = isUuid.assure(input);
       expect(result).toBe(input);
     });
   });
