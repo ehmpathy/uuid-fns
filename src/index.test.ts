@@ -1,8 +1,8 @@
 import { given, then } from 'test-fns';
 
-import { isUuid, getUuid, Uuid } from './index';
+import { isUuid, getUuid, getHash, Uuid } from './index';
 
-describe('uuid', () => {
+describe('uuid-fns', () => {
   given('a valid uuid string', () => {
     const input = '550e8400-e29b-41d4-a716-446655440000';
 
@@ -34,6 +34,22 @@ describe('uuid', () => {
     then('it should return a valid uuid typed as Uuid', () => {
       expect(typeof result).toBe('string');
       expect(isUuid(result)).toBe(true);
+    });
+  });
+
+  given('calling getHash', () => {
+    const input = 'test-input';
+
+    then('it should return a valid uuid', () => {
+      const result = getHash(input);
+      expect(typeof result).toBe('string');
+      expect(isUuid(result)).toBe(true);
+    });
+
+    then('it should be deterministic', () => {
+      const result1 = getHash(input);
+      const result2 = getHash(input);
+      expect(result1).toBe(result2);
     });
   });
 });
