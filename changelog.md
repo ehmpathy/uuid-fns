@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/ehmpathy/uuid-fns/compare/v1.1.0...v1.1.1) (2025-12-02)
+
+
+### Bug Fixes
+
+* **practs:** bump to latest best ([30f1cec](https://github.com/ehmpathy/uuid-fns/commit/30f1cecdf08490d6c8344ad649b0cc290a8d2e14))
+
 ## [1.1.0](https://github.com/ehmpathy/uuid-fns/compare/v1.0.2...v1.1.0) (2025-12-02)
 
 
