@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid';
 
-import { Uuid } from '../domain.objects/Uuid';
+import type { Uuid } from '../domain.objects/Uuid';
 import { isUuid } from './isUuid';
 
 /**

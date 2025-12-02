@@ -1,6 +1,6 @@
 import { given, then } from 'test-fns';
 
-import { isUuid, getUuid, getHash, Uuid } from './index';
+import { getHash, getUuid, isUuid, type Uuid } from './index';
 
 describe('uuid-fns', () => {
   given('a valid uuid string', () => {

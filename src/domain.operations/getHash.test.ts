@@ -1,6 +1,5 @@
 import { given, then } from 'test-fns';
 
-import { Uuid } from '../domain.objects/Uuid';
 import { getHash } from './getHash';
 import { isUuid } from './isUuid';
 

@@ -1,7 +1,7 @@
 import { withAssure } from 'type-fns';
 import { validate } from 'uuid';
 
-import { Uuid } from '../domain.objects/Uuid';
+import type { Uuid } from '../domain.objects/Uuid';
 
 /**
  * A type guard that checks if a string is a valid UUID.

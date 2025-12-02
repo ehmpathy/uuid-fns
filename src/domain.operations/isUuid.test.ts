@@ -1,6 +1,6 @@
 import { given, then } from 'test-fns';
 
-import { Uuid } from '../domain.objects/Uuid';
+import type { Uuid } from '../domain.objects/Uuid';
 import { isUuid } from './isUuid';
 
 describe('isUuid', () => {
