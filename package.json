@@ -47,8 +47,6 @@
     "prepare": "[ -d .git ] && npm run prepare:husky || exit 0"
   },
   "dependencies": {
-    "domain-objects": "0.31.0",
-    "helpful-errors": "1.5.3",
     "type-fns": "1.21.0",
     "uuid": "11.1.0"
   },
@@ -68,10 +66,12 @@
     "declastruct": "1.4.0",
     "declastruct-github": "1.0.3",
     "depcheck": "1.4.3",
+    "domain-objects": "0.31.0",
     "esbuild-register": "3.6.0",
+    "helpful-errors": "1.5.3",
     "husky": "8.0.3",
     "jest": "30.2.0",
-    "test-fns": "1.5.0",
+    "test-fns": "1.7.2",
     "tsx": "4.20.6",
     "typescript": "5.4.5"
   },
