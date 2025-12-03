@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/ehmpathy/uuid-fns/compare/v1.1.1...v1.1.2) (2025-12-03)
+
+
+### Bug Fixes
+
+* **deps:** rescope deps as devdeps ([#7](https://github.com/ehmpathy/uuid-fns/issues/7)) ([7dcc40e](https://github.com/ehmpathy/uuid-fns/commit/7dcc40e8b03095247a573e11633a731f9e3393aa))
+
 ## [1.1.1](https://github.com/ehmpathy/uuid-fns/compare/v1.1.0...v1.1.1) (2025-12-02)
 
 
